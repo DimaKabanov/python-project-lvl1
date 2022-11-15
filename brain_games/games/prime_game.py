@@ -2,7 +2,7 @@ from math import sqrt
 from random import randint
 
 
-TASK = 'Answer "yes" if number is prime. Otherwise answer "no"'
+TASK = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 MIN_NUMBER_TO_GUESS = 1
 MAX_NUMBER_TO_GUESS = 20
 
