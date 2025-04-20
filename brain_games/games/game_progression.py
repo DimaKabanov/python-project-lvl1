@@ -13,7 +13,11 @@ def get_progression(start, difference, count):
 
 def create_progression_question():
     difference = randint(MIN_NUMBER_TO_DIFFERENCE, MAX_NUMBER_TO_DIFFERENCE)
-    progression = get_progression(MAX_NUMBER_TO_PROGRESSION, difference, MAX_NUMBER_TO_PROGRESSION)
+    progression = get_progression(
+        MAX_NUMBER_TO_PROGRESSION,
+        difference,
+        MAX_NUMBER_TO_PROGRESSION
+    )
 
     random_progression_item = choice(progression)
     progression_with_hidden_item = map(

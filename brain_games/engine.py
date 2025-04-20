@@ -20,7 +20,9 @@ def run_game(task, create_question):
         answer = prompt.string('Your answer: ')
 
         if answer != correct_answer:
-            print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
+            print(f"'{answer}' is wrong answer ;(."
+                  f"Correct answer was '{correct_answer}'.")
+
             print(f"Let's try again, {name}!")
             break
 
